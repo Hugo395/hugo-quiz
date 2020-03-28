@@ -1,0 +1,282 @@
+:root{
+    background-color: black;
+    font-size: 62.5%;
+    /* background-image: url(/Game-Project/Images/Bank.jpg); */
+    background-position: center;
+    background-size: inherit;
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    margin : 0;
+    padding: 0;
+    color: crimson;
+}
+
+#question{
+    color: crimson;
+    text-shadow: 2px 2px black;
+}
+
+h1 {
+    background-color: white;
+    border: 0.1rem solid rgb(39, 2, 2);
+    border-radius: 100% red;
+    font-size: 5.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(194, 6, 6);
+    margin-bottom: 5rem;
+    }
+
+h1 > span {
+    font-size : 2.4rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+h4{
+    margin-bottom: 1rem;
+}
+
+/* Utilities */
+
+
+.container{
+    width : 100vw;
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-image: url("/Game-Project/Images/tio\ patinhas.jpg");
+    background-position: cover;
+    background-size: 25%;
+}
+
+.container > * {
+    width: 100%;
+
+    
+}
+
+
+
+.flex-column{
+    display: flex;
+    flex-direction : column;
+    height: 100%;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/*Buttons */
+
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.5rem solid rgb(39, 2, 2);
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color:whitesmoke;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(78, 19, 19, 0.5);
+    transform: translateY(-0.5rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none,
+}
+
+
+/*Game - 2º page - Styling*/
+
+/* .image{
+    background-image: url("/Game-Project/Images/tio\ patinhas.jpg");
+    background-position: center;
+    background-size: 25%;
+} */
+
+
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.7rem;
+    width: 70%;
+    font-size: 1.0rem;
+    border: 0.2rem solid rgba(243, 236, 236, 0.5);
+    background: white;
+        
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(78, 19, 19, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+
+}
+
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: tomato;
+    color: white;
+
+    }
+   
+ .choice-text{
+    padding: 1.5rem;
+    width: 100%;
+    color: rgb(14, 14, 3);
+    font-weight: bold;
+    }
+
+    .correct{
+        background-color: #28a745;
+    }
+
+    .incorrect{
+        background-color: #dc3545;
+    }
+
+    /*Mini Board*/
+
+    #hud {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .hud-prefix {
+        text-align: center;
+        font-size: 2.5rem;
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    .hud-main-text {
+        text-align: center;
+    }
+
+    /*Progress Bar */
+
+    #Bar{
+        width: 20rem;
+        height: 4rem;
+        border: 0.3rem solid whitesmoke;
+        margin-top: 1.5rem;
+    }
+
+    #progressBarFull{
+        height: 3.4rem;
+        background-color: whitesmoke;
+        width: 0%;
+    }
+
+
+/*End Page*/
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    outline-color: red;
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: rgb(77, 8, 8);
+}
+
+/* High Scores page */
+
+
+
+#highScoresList {
+    padding-left : 0;
+    margin-bottom: 8rem;
+    font-size: xx-large;
+    align-items: center;
+    font-style: italic;
+    font-weight: bolder;
+    }
+
+.high-score{
+    font-size: 2.8rem;
+
+
+}
+.high-score:hover{
+    transform: scale(1.025);
+}
+
+
+
+
+/* Images */
+
+.container2{
+    background-image: url("/Game-Project/Images/questionsimag.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width : 100vw;
+    height : 100vh;
+    
+}
+.container3{
+    background-image:url(/Game-Project/Images/HighScores\ Image.jpg);
+    width : 100vw;
+    height : 100vh;
+}
+
+.container4{
+    background-image:url(/Game-Project/Images/end\ page\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width : 100vw;
+    height : 100vh;
+
+}
