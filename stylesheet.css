@@ -62,7 +62,7 @@ h4{
     max-width: 100%;
     margin: 0 auto;
     padding: 2rem;
-    background-image: url("/Game-Project/Images/tio\ patinhas.jpg");
+    background-image: url("/Images/tio\ patinhas.jpg");
     background-position: cover;
     background-size: 25%;
 }
@@ -258,7 +258,7 @@ input {
 /* Images */
 
 .container2{
-    background-image: url("/Game-Project/Images/questionsimag.jpeg");
+    background-image: url("/Images/questionsimag.jpeg");
 
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -267,13 +267,13 @@ input {
     
 }
 .container3{
-    background-image:url(/Game-Project/Images/HighScores\ Image.jpg);
+    background-image:url("/Images/HighScores\ Image.jpg");
     width : 100vw;
     height : 100vh;
 }
 
 .container4{
-    background-image:url(/Game-Project/Images/end\ page\ 2.jpg);
+    background-image:url("/Images/end\ page.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     width : 100vw;
